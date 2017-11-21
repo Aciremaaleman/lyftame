@@ -1,39 +1,43 @@
-body {
+body { /*Comienza el body */
   margin: 0px;
   background-color: #76278F;
 }
-header {
+header { /*fondo del header */
   background-image: url("../assets/images/hero.gif");
   background-size: cover;
 }
-footer {
+footer { /*caracteristicas generales del footer fondo,color de letra, altura y fuente */
   background-color: #333447;
   color: #fff;
   height: 500px;
   font-family: 'Montserrat', sans-serif;
 }
-#copy {
+hr {
+  margin: 30px 50px 30px 340px; /*para crear la linea dentro del footer*/
+  width: 700px;
+}
+#copy { /*id para acomodar el parrafo que tiene el icono de copyright en el footer */
   text-align: center;
   margin-top: 45px;
   margin-bottom: 30px;
 }
-#icongoogle {
+#icongoogle { /*id para acomodar la imagen de google */
   display: inline-block;
   margin: 0px 0px 80px 200px;
   width: 130px;
 }
-#iconmi {
+#iconmi { /*id para acomodar la imagen de microsoft */
   float: right;
   margin: -132px 333px 0px 0px;
   width: 130px;
 }
-#margintp {
+#margintp { /*id para acomodar el margen del utlimo parafo cel nav del header */
   margin: 0px 0px 30px 30px;
 }
-#marginmenu {
+#marginmenu { /*id para acomodar el margen izquierdo del primer viculo dentro del header */
   margin-left: 588px;
 }
-#pinkbotom {
+#pinkbotom { /*id para dar estilo al primer vinculo dentro del nav del header despues de input */
   background-color: #ff1a75;
   border-radius: 10px;
   color: #fff;
@@ -41,38 +45,38 @@ footer {
   padding: 15px;
   text-decoration: none;
 }
-#singbotom {
+#singbotom { /*id para dar estilo al segundo vinculo dentro del nav del header */
   color: #728099;
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
 }
-#sizelogo {
+#sizelogo { /*id para dar tamaño a la imagen del logo del header */
   display: inline-block;
   height: 50px;
   width: 65px;
   margin: 30px 0px -31px 170px;
 }
-#stylebotom {
+#stylebotom { /*id para dar estilo al ultimo vinculo del header antes del nav */
   border: 1px solid #fff;
   border-radius: 5px;
   padding: 10px;
 }
-#sizevideo_one {
+#sizevideo_one { /*id para dar tamaño y posicion al primer video */
   margin: -256px 0px 0px 0px;
   height: 500px;
   width: 850px;
 }
-#sizevideo_two {
+#sizevideo_two { /*id para dar tamaño y posicion al segundo video */
   margin: -97px 0px 0px 0px;
   height: 500px;
   width: 850px;
 }
-#sizevideo_three {
+#sizevideo_three { /*id para dar tamaño y posicion al tercer video */
   margin: -270px 0px 0px 0px;
   height: 500px;
   width: 850px;
 }
-.form {
+.form { /*Se llama a la clase form del nav dentro del header para dar formato */
   background-color: #fff;
   display: inline-block;
   font-family: 'Montserrat', sans-serif;
@@ -80,30 +84,30 @@ footer {
   padding-left: 45px;
   padding-top: 10px
 }
-.form > h1 {
+.form > h1 { /*Se llama a la clase form con un selector a h1, del nav dentro del header para dar formato a h1*/
   color: #352384;
   font-size: 40px;
   margin: 55px 0px -15px 30px;
 }
-.form > h2 {
+.form > h2 { /*Se llama a la clase form con un selector a h2, del nav dentro del header para dar formato a h2*/
   color: #352384;
   font-size: 20px;
   margin: 18px 0px 30px 30px;
 }
-input[type='text']{
+input[type='text']{ /*se le da formato y estilo al input donde el usuario colocara los datos que le piden*/
   border-top: none;
   border-left: none;
   border-right: none;
   margin: 18px 0px 40px 30px;
   width: 400px;
 }
-.form > p {
+.form > p { /*Se llama a la clase form con un selector a p, del nav dentro del header para dar formato a p*/
   color: #728099;
   font-family: 'Montserrat', sans-serif;
   font-size: 10px;
   margin: 60px 0px 10px 30px;
 }
-.menu > a {
+.menu > a { /*Se llama a la clase menu con un selector hacia a  del header para dar formato al a */
   color: #fff;
   display: inline-block;
   font-family: 'Montserrat', sans-serif;
@@ -112,28 +116,28 @@ input[type='text']{
   padding: 10px;
   text-decoration: none;
 }
-.secondpart {
+.secondpart { /*Comienza la primer section y se le da las caracteristicas generales */
   background-color: #76278F;
   color: #fff;
   font-family: 'Montserrat', sans-serif;
   margin: 100px 0px 0px 120px;
 }
-.secondpart > h1 {
+.secondpart > h1 { /*Se llama a la clase secondpart con un selector hacia h1 dentro de la section para dar formato a h1 */
   font-size: 25px;
 }
-.secondpart > p {
+.secondpart > p { /*Se llama a la clase secondpart con un selector hacia p dentro de la section para dar formato a p */
   font-size: 15px;
 }
-.secondpart > img {
+.secondpart > img { /*Se llama a la clase secondpart con un selector hacia img dentro de la section para dar formato a img */
   float: right;
   height: 500px;
   margin: -400px 115px 0px 0px;
   width: 500px;
 }
-.marginp {
+.marginp { /*Se utiliza para dar margen a los parrafos de la section con clase secondpart  */
   margin: -15px 0px 0px 0px;
 }
-.thirdpart {
+.thirdpart { /*Inicia la segunda section con clase thirdpart */
   background-color: #fff;
   clear: right;
   display: inline-block;
@@ -143,24 +147,24 @@ input[type='text']{
   padding: 50px;
   width: 100%;
 }
-.thirdpart > h5 {
+.thirdpart > h5 { /*Se llama a la clase thirdpart con un selector hacia h5 dentro de la section para dar formato a h5 */
   font-weight: bold;
   font-size: 15px;
   margin: 30px 0px 0px 40px;
 }
-.thirdpart > h1 {
+.thirdpart > h1 { /*Se llama a la clase thirdpart con un selector hacia h1 dentro de la section para dar formato a h1 */
   font-size: 35px;
   font-weight: bold;
   margin: 0px 0px 30px 40px;
 }
-.thirdpart > p {
+.thirdpart > p { /*Se llama a la clase thirdpart con un selector hacia p dentro de la section para dar formato a p */
   font-size: 15px;
   margin: 0px 0px 2px 40px;
 }
-.recordone {
+.recordone { /*Clase para colocar la posicion a la derecha del primer video */
   float: right;
 }
-.fourthpart {
+.fourthpart { /*Inicia la tercer section con clase fourthpart */
   background-color: #fff;
   clear: right;
   display: inline-block;
@@ -168,89 +172,85 @@ input[type='text']{
   font-family: 'Montserrat', sans-serif;
   width: 100%;
 }
-.fourthpart > h5 {
+.fourthpart > h5 { /*Se llama a la clase fourthpart con un selector hacia h5 dentro de la section para dar formato a h5 */
   font-weight: bold;
   font-size: 15px;
   margin: -45px 0px 0px 1000px;
 }
-.fourthpart > h1 {
+.fourthpart > h1 { /*Se llama a la clase fourthpart con un selector hacia h1 dentro de la section para dar formato a h1 */
   font-size: 35px;
   font-weight: bold;
   margin: 00px 0px 30px 1000px;
 }
-.fourthpart > p {
+.fourthpart > p { /*Se llama a la clase fourthpart con un selector hacia p dentro de la section para dar formato a p */
   font-size: 15px;
   margin: 0px 0px 2px 1000px;
 }
-.recordtwo {
+.recordtwo { /*Clase para colocar la posicion a la izquierda del segundo video */
   display: inline-block;
   margin: -134px 0px 0px 0px;
 }
-.fifthpart {
+.fifthpart { /*Inicia la cuarta section con clase fifthpart */
   background-color: #fff;
   display: inline-block;
   height: 409px;
   font-family: 'Montserrat', sans-serif;
   width: 100%;
 }
-.fifthpart > h5 {
+.fifthpart > h5 { /*Se llama a la clase fifthpart con un selector hacia h5 dentro de la section para dar formato a h5 */
   font-weight: bold;
   font-size: 15px;
   margin: 30px 0px 0px 40px;
 }
-.fifthpart > h1 {
+.fifthpart > h1 { /*Se llama a la clase fifthpart con un selector hacia h1 dentro de la section para dar formato a h1 */
   font-size: 30px;
   font-weight: bold;
   margin: 0px 0px 30px 40px;
 }
-.fifthpart > p {
+.fifthpart > p { /*Se llama a la clase fifthpart con un selector hacia p dentro de la section para dar formato a p */
   font-size: 15px;
   margin: 0px 0px 2px 40px;
 }
-.recordthree {
+.recordthree { /*Clase para colocar la posicion a la derecha del tercer video */
   float: right;
 }
-.column {
+.column { /*Inicia footer clase para que los elementos no floten a la derecha */
   clear: right;
 }
-.column-one  {
+.column-one  { /*clase para el estilo y formato de la primer columna del footer */
   display: inline-block;
   margin: 50px 40px 60px 200px;
   font-size: 15px;
   text-align: center;
 }
-.column-one p:hover {
+.column-one p:hover { /*clase para dar accion a los parrafos de las columnas del footer*/
     color: #FF00BF;
 }
-.column-two {
+.column-two { /*clase para el estilo y formato de la segunda columna del footer */
   display: inline-block;
   margin: 50px 40px 60px 40px;
   font-size: 15px;
   text-align: center;
 }
-.column-two p:hover {
+.column-two p:hover { /*clase para dar accion a los parrafos de las columnas del footer*/
   color: #FF00BF;
 }
-.column-three {
+.column-three { /*clase para el estilo y formato de la tercer columna del footer */
   display: inline-block;
   margin: 50px 40px 60px 40px;
   font-size: 15px;
   text-align: center;
 }
-.column-three p:hover {
+.column-three p:hover { /*clase para dar accion a los parrafos de las columnas del footer*/
   color: #FF00BF;
 }
-.iconetwo {
+.iconetwo { /*clase para dar formato de posicion a los iconos*/
   text-align: center;
   margin-top: 30px;
 }
-.fa-facebook-square:before {
+.fa-facebook-square:before { /*clase para dar margen al primer icono*/
   margin-right: 50px;
 }
-.fa-instagram:before {
+.fa-instagram:before { /*clase para dar margen al primer icono*/
   margin-right: 50px
-}
-hr {
-  margin: 30px 50px 30px 340px;
-  width: 700px;
 }
