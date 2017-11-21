@@ -2,13 +2,16 @@ body {
   margin: 0px;
   background-color: #76278F;
 }
+header {
+  background-image: url("../assets/images/hero.gif");
+  background-size: cover;
+}
 footer {
   background-color: #333447;
   color: #fff;
   height: 500px;
   font-family: 'Montserrat', sans-serif;
 }
-
 #copy {
   text-align: center;
   margin-top: 45px;
@@ -157,7 +160,6 @@ input[type='text']{
 .recordone {
   float: right;
 }
-
 .fourthpart {
   background-color: #fff;
   clear: right;
@@ -166,13 +168,11 @@ input[type='text']{
   font-family: 'Montserrat', sans-serif;
   width: 100%;
 }
-
 .fourthpart > h5 {
   font-weight: bold;
   font-size: 15px;
   margin: 50px 0px 0px 1000px;
 }
-
 .fourthpart > h1 {
   font-size: 35px;
   font-weight: bold;
@@ -182,12 +182,10 @@ input[type='text']{
   font-size: 15px;
   margin: 0px 0px 2px 1000px;
 }
-
 .recordtwo {
   display: inline-block;
   margin: -134px 0px 0px 0px;
 }
-
 .fifthpart {
   background-color: #fff;
   display: inline-block;
@@ -215,18 +213,15 @@ input[type='text']{
 .column {
   clear: right;
 }
-
 .column-one  {
   display: inline-block;
   margin: 50px 40px 60px 200px;
   font-size: 15px;
   text-align: center;
 }
-
 .column-one p:hover {
     color: #FF00BF;
 }
-
 .column-two {
   display: inline-block;
   margin: 50px 40px 60px 40px;
@@ -245,11 +240,9 @@ input[type='text']{
 .column-three p:hover {
   color: #FF00BF;
 }
-
 .iconetwo {
   text-align: center;
   margin-top: 30px;
-
 }
 .fa-facebook-square:before {
   margin-right: 50px;
@@ -257,9 +250,7 @@ input[type='text']{
 .fa-instagram:before {
   margin-right: 50px
 }
-
 hr {
   margin: 30px 50px 30px 340px;
   width: 700px;
-
 }
