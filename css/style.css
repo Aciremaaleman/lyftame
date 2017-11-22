@@ -121,6 +121,9 @@ input[type='text']{ /*se le da formato y estilo al input donde el usuario coloca
   padding: 10px;
   text-decoration: none;
 }
+.menu > a:hover {
+  color: #FF00BF;
+}
 .secondpart { /*Comienza la primer section y se le da las caracteristicas generales */
   background-color: #76278F;
   color: #fff;
