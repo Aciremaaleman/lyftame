@@ -9,7 +9,7 @@ header { /*fondo del header */
 footer { /*caracteristicas generales del footer fondo,color de letra, altura y fuente */
   background-color: #333447;
   color: #fff;
-  height: 500px;
+  height: 550px;
   font-family: 'Montserrat', sans-serif;
 }
 hr {
@@ -23,13 +23,18 @@ hr {
 }
 #icongoogle { /*id para acomodar la imagen de google */
   display: inline-block;
-  margin: 0px 0px 80px 200px;
-  width: 130px;
+  margin: 0px 0px 120px 200px;
+  width: 100px;
 }
 #iconmi { /*id para acomodar la imagen de microsoft */
   float: right;
-  margin: -132px 333px 0px 0px;
-  width: 130px;
+  margin: -161px 365px 0px 0px;
+  width: 100px;
+}
+#iconap {
+  margin: -85px 0px 80px 884px;
+  width: 100px;
+
 }
 #margintp { /*id para acomodar el margen del utlimo parafo cel nav del header */
   margin: 0px 0px 30px 30px;
@@ -246,7 +251,7 @@ input[type='text']{ /*se le da formato y estilo al input donde el usuario coloca
 }
 .iconetwo { /*clase para dar formato de posicion a los iconos*/
   text-align: center;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 .fa-facebook-square:before { /*clase para dar margen al primer icono*/
   margin-right: 50px;
